@@ -1,0 +1,236 @@
+
+body, html {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family:'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/WhatsApp\ Image\ 2021-02-22\ at\ 10.57.16.jpeg)center no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+    text-align: center;
+    color: beige;
+}
+
+.banner_titulo {
+    font-size: 3rem;
+}
+
+.banner_subtitulo {
+    font-size: 1.5rem;
+}
+.sub {
+    color: #F1C40F;
+    
+}
+
+.btn {
+    margin: 30px 0;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    border-radius: 3rem;
+    border: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+
+}
+.bee {
+    width: 30px;
+    height: 30px;
+}
+.btn:hover {
+    background-color: #F1C40F;
+    border: 3px dashed black;
+    
+}
+
+/* Seçao sobre mim */
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3rem 3em;
+    border-top: 3px dashed black;
+    padding: 2rem 0;
+    line-height: 1.8em;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 100%;
+    text-align: justify;
+}
+.sobre-descricao {
+    padding:0 1.5rem;
+}
+.sobre-descricao_texto {
+    font-size: 1rem;
+}
+.sobre-habilidade_lista {
+    font-size: 1rem;
+}
+.sobre-habilidades {
+    border-left: 3px dashed black;
+    padding: 0 1.5rem;
+}
+
+.sobre_titulo {
+    margin-top: 50px;
+    font-size: 2rem;
+    color:#F1C40F;
+    text-align: center;
+    font-weight: bold;
+}
+.redes-titulo {
+    display: flex;
+    justify-content: center;
+    color: #F1C40F;
+    font-size: 1.5rem;
+}
+
+.redes-container {
+   margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icones {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    color: #FFFF;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+.icones:hover {
+    background-color: #F1C40F;
+    border: 3px dashed black;
+
+}
+.img-icones {
+    width: 50px;
+    height: 50px;
+    
+}
+.icons-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color:#F1C40F;
+    text-align: center;
+
+}
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 20px 0;
+}
+
+@media (max-width: 760px) {
+    .banner {
+        height: 55vh;
+    }
+    .banner_titulo {
+        font-size: 1.5rem;
+    }
+    .banner_subtitulo {
+        font-size: 1rem;
+    }
+    .btn {
+        border-radius: 3rem;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        
+    }
+    .sobre_titulo {
+        margin-top: 50px;
+        font-size: 1.5rem;
+        color:#F1C40F;
+        text-align: center;
+        font-weight: bold;
+    }    
+    .sobre-container{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 2rem;
+        padding: 1rem 0;
+        
+    }
+    .sobre-descricao_texto {
+        font-size: 0.8rem;
+    }
+    .sobre-habilidade_lista {
+        font-size: 0.8rem;
+    }
+    .sobre-habilidades {
+        margin-top: 10px;
+        border-top: 3px dashed black;
+        border-left: none;
+        padding: 0px 0px;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .redes-titulo {
+        display: flex;
+        justify-content: center;
+        color: #F1C40F;
+        font-size: 1rem;
+    }
+    .redes-container {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+    
+    }
+    .icones {
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .img-icones {
+        width: 30px;
+        height: 30px;
+        
+    }
+    .icons-subtitle {
+        display: none;
+    }
+    
+}
